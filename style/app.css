@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+/* HEADER */
+
+.appBar{
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(196, 196, 196, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.1);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px 30px; */
+    color: #AB00FF;
+}
+
+.appBar .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* height: 10vh; */
+    transition: .05s ease-in-out;
+    padding: 15px 0;
+}
+
+.appBar .icon-container:hover{
+    background: #AB00FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.appBar .icon-container:active{
+    background: #8f00d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* BODY CONTENT */
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding-top: 15vh;
+    padding-bottom: 40vh;
+}
+
+.displayCard{
+    background: #AB00FF;
+    border-radius: 10px;
+    width: 90vw;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 8px 0 rgba(178, 45, 255, 0.5), 0 6px 20px 0 rgba(178, 45, 255, 0.5);
+}
+
+.displayCard #author{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    /* font-style: italic; */
+    opacity: .8;
+}
+
+.displayCard #author::before{
+    content: "";
+    margin-right: 3px;
+    font-size: 30px;
+    width: 25px;
+    position: relative;
+    margin-top: 25px;
+    height: 2px;
+    opacity: .8;
+    background: #fff;
+}
+
+#bookmark{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background: #AB00FF;
+    width: 100vw;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+    box-shadow: 0 -2px 8px 0 rgba(196, 196, 196, 0.25), 0 -6px 20px 0 rgba(153, 153, 153, 0.25);
+}
+
+footer:active{
+    transform: translateY(5px);
+}
+
+.get-quote::selection{
+    display: none;
+}
+
+
+/* TOGGLE THEME *//* TOGGLE THEME *//* TOGGLE THEME *//* TOGGLE THEME */
+/* TOGGLE THEME *//* TOGGLE THEME *//* TOGGLE THEME *//* TOGGLE THEME */
+
+.toggle-app-bar{
+    color: #fff;
+    background: #000000;
+    box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25), 0 -6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.toggle-app-bar .icon-container:hover{
+    color: #0e0e0e;
+    background: #fff;
+}
+
+.toggle-footer{
+    color: #fff;
+    background: #000000;
+    box-shadow: 0 -2px 8px 0 rgba(19, 19, 19, 0.25), 0 -6px 20px 0 rgba(19, 19, 19, 0.25);
+}
+
+.toggle-displayCard{
+    background: #fff;
+    color: #0e0e0e;
+    box-shadow: 0 -2px 8px 0 rgba(196, 196, 196, 0.1), 0 -6px 20px 0 rgba(153, 153, 153, 0.1);
+}
+
+.toggle-content{
+    background: #0e0e0e;
+}
+
+.toggle-displayCard #author::before{
+    content: "";
+    margin-right: 3px;
+    font-size: 30px;
+    width: 25px;
+    position: relative;
+    margin-top: 25px;
+    height: 2px;
+    opacity: .8;
+    background: rgb(80, 80, 80);
+}

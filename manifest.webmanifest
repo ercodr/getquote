@@ -1,0 +1,12 @@
+{
+    "name": "Alphascid Get Quote",
+    "short_name": "Get Quote",
+    "start_url": "/index.html?home=true",
+    "description": "Quote Maker/Generator",
+    "lang": "en-US",
+    "theme_color": "#AB00FF",
+    "background_color": "#AB00FF",
+    "display": "fullscreen",
+    "orientation": "portrait"
+  }
+
