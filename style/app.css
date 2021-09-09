@@ -77,7 +77,8 @@ body{
 
 .displayCard #author{
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
+    float: right;
     margin-top: 10px;
     /* font-style: italic; */
     opacity: .8;
@@ -95,11 +96,11 @@ body{
     background: #fff;
 } */
 
-#bookmark{
+/* #bookmark{
     font-size: 20px;
     margin-left: 10px;
     cursor: pointer;
-}
+} */
 
 
 
