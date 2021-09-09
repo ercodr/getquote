@@ -83,7 +83,7 @@ body{
     opacity: .8;
 }
 
-.displayCard #author::before{
+/* .displayCard #author::before{
     content: "";
     margin-right: 3px;
     font-size: 30px;
@@ -93,7 +93,7 @@ body{
     height: 2px;
     opacity: .8;
     background: #fff;
-}
+} */
 
 #bookmark{
     font-size: 20px;
@@ -156,11 +156,11 @@ footer:active{
     box-shadow: 0 -2px 8px 0 rgba(196, 196, 196, 0.1), 0 -6px 20px 0 rgba(153, 153, 153, 0.1);
 }
 
-.toggle-content{
-    background: #0e0e0e;
+.toggle-body{
+    background: #1b1b1b;
 }
 
-.toggle-displayCard #author::before{
+/* .toggle-displayCard #author::before{
     content: "";
     margin-right: 3px;
     font-size: 30px;
@@ -170,4 +170,4 @@ footer:active{
     height: 2px;
     opacity: .8;
     background: rgb(80, 80, 80);
-}
+} */
